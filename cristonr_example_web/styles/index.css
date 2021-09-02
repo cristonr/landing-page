@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main-container {
+    background-image: url("../img/confeti-cayendo.jpg");
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.uno,
+.dos {
+    width: auto;
+    padding: 5px;
+    background: linear-gradient(to right, orange, #f371d0, #a258d3, rgb(57, 110, 110));
+    margin: 100px;
+    border-radius: 15px;
+    transform: rotate(-12deg);
+    border-bottom-style: groove;
+}
+
+.dos {
+    transform: rotate(22deg);
+}
+
+.title {
+    margin: 200px 50px 20px 10px;
+}
